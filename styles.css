@@ -1,0 +1,81 @@
+
+.group1
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.div1, .div2{
+    flex:1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+img
+{
+    width : 90%;
+    height: 90%;
+}
+.div3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #e7f3ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.group2
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.div4, .div5, .div6{
+    flex: 1;
+    background-color: #fdf7e3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.group3
+{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.div7, .div8, .div9, .div10{
+    flex: 1;
+    background-color: #f9ebf3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.group4, .group5
+{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+@media (max-width: 1024px) {
+    .group1, .group2, .group3 {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .group4, .group5 {
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+@media (max-width: 764px) {
+    .group1, .group2, .group3, .group4, .group5 {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
